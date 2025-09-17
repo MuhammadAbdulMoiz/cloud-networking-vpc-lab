@@ -16,7 +16,7 @@ Build a custom AWS VPC with public & private subnets, Internet Gateway, NAT Gate
   - Private EC2 → internet via NAT
 
 📌 Architecture Diagram:  
-![Architecture](diagrams/week1-vpc.png)
+![Architecture](diagrams/aws-network-lab.drawio.svg)
 
 ---
 
