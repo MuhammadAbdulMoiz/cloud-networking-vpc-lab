@@ -2,6 +2,11 @@
 
 ## Launch Instances
 ```bash
+# VPC
+aws ec2 create-vpc \
+  --cidr-block 10.0.0.0/16 \
+  --tag-specifications 'ResourceType=vpc,Tags=[{Key=Name,Value=Week1VPC}]'
+
 # Public 1A
 aws ec2 run-instances \
   --image-id <value>  \
@@ -30,5 +35,6 @@ aws ec2 run-instances \
   --user-data file://scripts/user-data.sh
 
 # Terminate instances
+
 
 aws ec2 terminate-instances --instance-ids <value> <value>
