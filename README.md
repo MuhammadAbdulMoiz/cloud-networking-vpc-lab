@@ -5,6 +5,13 @@ Build a custom AWS VPC with public & private subnets, Internet Gateway, NAT Gate
 
 ---
 
+## 📚 Guides & Resources
+
+If you want a walkthrough or video guide to help you complete this lab, check out:  
+[Lab Walkthrough Video](https://www.youtube.com/watch?v=g2JOHLHh4rI)
+
+---
+
 ## 🛠️ Architecture
 - **VPC CIDR:** 10.0.0.0/16
 - **Public Subnets:** 10.0.1.0/24, 10.0.2.0/24
